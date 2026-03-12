@@ -21,3 +21,14 @@ print(f"Resultado de {condicion1} or {condicion2} es: {resultado}")
 print("***Operador Not***")
 condicion1 = False
 print(f"Resultado de {condicion1} es {not condicion1}")
+
+# Revisar si una variable es cadena vacia
+
+nombre = ""
+es_cadena_vacia = not nombre
+print(f"¿La variable nombre es una cadena vacia? {es_cadena_vacia}")
+
+# revisar si una variable no tiene ningun valor asignado
+variable = None
+es_variable_vacia = not variable
+print(f"¿La variable es vacia? {es_variable_vacia}")
